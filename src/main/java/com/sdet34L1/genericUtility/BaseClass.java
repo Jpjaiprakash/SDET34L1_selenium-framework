@@ -19,6 +19,7 @@ import com.vtiger.objectRepository.LOginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * This class contains all configure annotations
+ * it is base class by main
  */
 public class BaseClass {
 
