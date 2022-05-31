@@ -51,7 +51,7 @@ public class BaseClass {
 	/**
 	 * This annotation contains normal execution configuration
 	 */
-	//@Parameters("browser")
+	@Parameters("browser")
 	@BeforeClass(groups="baseclass")
 	public void beforeClass1Test(/*String browser*/) {
 		jutil=new JavaUtility();
